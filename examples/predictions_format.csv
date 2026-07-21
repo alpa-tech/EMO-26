@@ -1,0 +1,3 @@
+path,true_index,true_label,pred_index,pred_label,confidence
+sample_0001.jpg,3,happiness,3,happiness,0.982100
+sample_0002.jpg,6,neutral,5,sadness,0.514200

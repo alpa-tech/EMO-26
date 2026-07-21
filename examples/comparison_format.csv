@@ -1,0 +1,7 @@
+method,dataset,accuracy
+POSTER,RAF-DB,92.05
+SE-POSTER,RAF-DB,92.78
+POSTER,FERPlus,91.62
+SE-POSTER,FERPlus,91.81
+POSTER,AffectNet-7,67.31
+SE-POSTER,AffectNet-7,67.65
