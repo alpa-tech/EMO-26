@@ -1,0 +1,30 @@
+{
+  "data_dir": "data/ferplus",
+  "landmark_dir": "landmarks/ferplus",
+  "output_dir": "runs/ferplus/se_all",
+  "landmark_checkpoint": null,
+  "freeze_landmark_encoder": false,
+  "pretrained_backbone": true,
+  "image_size": 224,
+  "batch_size": 32,
+  "epochs": 300,
+  "learning_rate": 0.0001,
+  "weight_decay": 0.0001,
+  "seed": 42,
+  "num_workers": 4,
+  "embedding_dimension": 256,
+  "transformer_depth": 4,
+  "transformer_heads": 8,
+  "token_size": 7,
+  "mlp_ratio": 4.0,
+  "dropout": 0.1,
+  "se_reduction": 16,
+  "se_levels": [
+    "fine",
+    "mid",
+    "global"
+  ],
+  "label_smoothing": 0.0,
+  "gradient_clip": 5.0,
+  "amp": true
+}
